@@ -104,7 +104,9 @@ Personagens disponíveis:
 
 Clone o repositório:
 
+```bash
 git clone https://github.com/seu-usuario/simulador-mario-kart.git
+```
 
 Entre na pasta do projeto.
 
