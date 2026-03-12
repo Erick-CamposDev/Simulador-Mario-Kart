@@ -2,7 +2,6 @@
 
 ![Node.js](https://img.shields.io/badge/Node.js-18%2B-green)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
-![Status](https://img.shields.io/badge/status-Em%20desenvolvimento-blue)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 Simulador de corrida inspirado em **Mario Kart**, desenvolvido em **Node.js**.  
@@ -56,11 +55,15 @@ No caso de **CONFRONTO**:
 
 # 🧱 Estrutura do Projeto
 
+```text
 │
 ├── package.json
-│── README.md
+├── README.md
+├── LICENSE
+│
 └── src
-└── index.js
+    └── index.js
+```
 
 ---
 
@@ -68,10 +71,10 @@ No caso de **CONFRONTO**:
 
 Cada personagem possui atributos:
 
-- **speed**
-- **maneuverability**
-- **power**
-- **points**
+- **speed** _Velocidade_
+- **maneuverability** _Manobrabilidade_
+- **power** _Poder_
+- **points** _Pontos_
 
 Exemplo:
 
@@ -84,6 +87,8 @@ Exemplo:
   points: 0
 }
 
+```
+
 Personagens disponíveis:
 
 - Mario
@@ -92,7 +97,6 @@ Personagens disponíveis:
 - Bowser
 - Luigi
 - Donkey Kong
-```
 
 ---
 
